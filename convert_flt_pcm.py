@@ -30,7 +30,7 @@ def main(input_directory, data_directory, group, speaker, chapter):
             wav_file_count += 1
             outfile.write(ident+' \n')
     outfile.close()
-	
+
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
